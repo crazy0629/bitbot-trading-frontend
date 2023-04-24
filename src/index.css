@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Ave;
+  src: url('/public/assets/font/avenir/Regular.otf');
+}
+@font-face {
+  font-family: AveBold;
+  src: url('/public/assets/font/avenir/Bold.otf');
+}
+@font-face {
+  font-family: AveItalic;
+  src: url('/public/assets/font/avenir/It.otf');
+}
+@font-face {
+  font-family: Montserrat;
+  src: url('/public/assets/font/Montserrat/static/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: MontserratBold;
+  src: url('/public/assets/font/Montserrat/static/Montserrat-Bold.ttf');
+}
+
+
+body {
+  margin: 0;
+  font-family: Ave;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(250, 251, 252);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+}
+.ant-radio-button-checked {
+  background-color: #4096ff;
+}
+.ant-radio-button-wrapper-checked {
+  color: #fff !important;
+}
